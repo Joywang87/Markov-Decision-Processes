@@ -1,0 +1,36 @@
+!!burlap.behavior.singleagent.Episode
+actionSequence:
+- &id001 !!burlap.mdp.core.action.SimpleAction {name: forward}
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+- *id001
+rewardSequence: [-1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, -1.0, 19.0]
+stateSequence:
+- !!edu.brown.cs.burlap.tutorials.domain.simple.TrafficLightGridState {light_state: 0,
+  x: 0}
+- !!edu.brown.cs.burlap.tutorials.domain.simple.TrafficLightGridState {light_state: 1,
+  x: 1}
+- !!edu.brown.cs.burlap.tutorials.domain.simple.TrafficLightGridState {light_state: 2,
+  x: 2}
+- !!edu.brown.cs.burlap.tutorials.domain.simple.TrafficLightGridState {light_state: 0,
+  x: 3}
+- !!edu.brown.cs.burlap.tutorials.domain.simple.TrafficLightGridState {light_state: 0,
+  x: 4}
+- !!edu.brown.cs.burlap.tutorials.domain.simple.TrafficLightGridState {light_state: 0,
+  x: 5}
+- !!edu.brown.cs.burlap.tutorials.domain.simple.TrafficLightGridState {light_state: 1,
+  x: 6}
+- !!edu.brown.cs.burlap.tutorials.domain.simple.TrafficLightGridState {light_state: 2,
+  x: 7}
+- !!edu.brown.cs.burlap.tutorials.domain.simple.TrafficLightGridState {light_state: 0,
+  x: 8}
+- !!edu.brown.cs.burlap.tutorials.domain.simple.TrafficLightGridState {light_state: 0,
+  x: 9}
+- !!edu.brown.cs.burlap.tutorials.domain.simple.TrafficLightGridState {light_state: 0,
+  x: 10}
